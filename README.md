@@ -1,24 +1,23 @@
-# Pixel By Pixel Exact
+# CRESVIA 360
 
-Implement exactly the screenshot and nothing else
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/93d7994b-8ffc-4601-81d2-24451f891f46).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+The CRESVIA 360 website. A TanStack Start (React SSR) app built with Vite.
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+You need Node.js and npm.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
+
+The dev server runs on http://localhost:8080.
+
+## Build
+
+```sh
+npm run build
+npm run preview
+```
+
+Other scripts: `npm run lint`, `npm run format`, `npm test`.
